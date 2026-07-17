@@ -2,8 +2,6 @@
 
 A multi-phase Retrieval-Augmented Generation (RAG) agent built with **LangGraph** that answers academic questions about the historiography of Visigothic Hispania. It retrieves paragraphs from a PostgreSQL + pgvector corpus of academic sources and generates cited, APA7-formatted answers in Spanish through three progressive phases: initial answer → contextualization → iterative gap-based refinement.
 
-> **Note:** Code identifiers and comments are in English, but all LLM prompts (and therefore the generated answers) are in **Spanish** by design.
-
 ## How it works
 
 The agent runs a linear LangGraph pipeline:
