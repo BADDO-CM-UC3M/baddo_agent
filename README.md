@@ -85,13 +85,13 @@ embedding      VECTOR     -- text-embedding-3-large (3072 dims)
 Batch mode (reads `prompts.json`):
 
 ```bash
-python rag_agent_english.py
+python baddo_agent.py
 ```
 
 Programmatic:
 
 ```python
-from rag_agent_english import run_agent, show_result, dump_state_to_json
+from baddo_agent import run_agent, show_result, dump_state_to_json
 
 state = run_agent("¿Qué efectos tuvo la conversión de Recaredo?")
 show_result(state)
