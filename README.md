@@ -64,7 +64,7 @@ Tunable constants at the top of the script: `TOP_K`, `TOP_K_RERANK`, `MIN_LENGTH
 | `corrientes.json` | Historiographical current → description |
 | `latin_words.txt` | One Latin word per line (Latin-term boost); optional |
 | `lemario.txt` | Spanish lemma list to exclude Spanish words from Latin detection |
-| `new_prompts2.json` | Input questions: list of strings or of `{"pregunta": "..."}` objects |
+| `prompts.json` | Input questions: list of strings or of `{"pregunta": "..."}` objects |
 
 ## Database schema
 
