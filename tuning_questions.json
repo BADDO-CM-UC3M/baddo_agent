@@ -1,0 +1,473 @@
+[
+  {
+    "num": 1,
+    "pregunta": "¿Qué relación mantuvo el Liber Iudiciorum con el derecho romano?",
+    "tipo": "original"
+  },
+  {
+    "num": 2,
+    "pregunta": "¿Qué territorio pudo haber gobernado Akhila y por qué era importante que ese territorio fuera una región con potencial humano y nobleza goda suficiente?",
+    "tipo": "original"
+  },
+  {
+    "num": 3,
+    "pregunta": "¿A qué pueblos alude realmente el término barbarus en la interpretatio del Breviario de Alarico, y por qué?",
+    "tipo": "original"
+  },
+  {
+    "num": 4,
+    "pregunta": "¿Qué actitud mostró Masona, obispo de Mérida, hacia los judíos y los paganos durante el reinado de Leovigildo?",
+    "tipo": "original"
+  },
+  {
+    "num": 5,
+    "pregunta": "¿Por qué rompió sus esponsales la virgo sponsa llamada Benedicta y cómo resolvió el caso el comes Angelate enviado por el monarca?",
+    "tipo": "original"
+  },
+  {
+    "num": 6,
+    "pregunta": "¿De qué autor clásico extrajo Martín de Braga las sentencias de la Formula uitae honestae que dedicó al rey suevo Mirón?",
+    "fuente": "crisis_arriana.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 7,
+    "pregunta": "¿Qué grupos, como los coloni adscriptici o los servi casati, explotaban las pequeñas unidades de la gran propiedad fundiaria en la Hispania tardoantigua y qué debían al propietario?",
+    "fuente": "sociedad_economia_antiguedad_tardia.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 8,
+    "pregunta": "¿Qué significa el iudicium belli en el enfrentamiento entre Wamba y el rebelde Paulo, y qué papel se atribuye al juicio de Dios en la llegada al trono de Ervigio o Suintila?",
+    "fuente": "ordalias.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 9,
+    "pregunta": "¿Qué datos debían constar en las actas de un concilio según el pasaje de San Jerónimo que empieza «Responde, quaeso, synodus a qua excommunicatus est»?",
+    "fuente": "reajuste_documentacion.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 10,
+    "pregunta": "¿Cómo evolucionó el cargo de defensor plebis instituido por Valentiniano en el 364 y quién nombraba a este magistrado en la España de Recaredo?",
+    "fuente": "conferencia_cartago.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 11,
+    "pregunta": "¿Por qué Juan de Biclaro compara a Recaredo con Constantino y con Marciano (renouans temporibus nostris antiquum principem Constantinum)?",
+    "fuente": "discursos_rey_tomus.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 12,
+    "pregunta": "¿Qué es la Missa in profectionem hostium del Sacramentario de Gelona y qué relación señala Tellenbach con la liturgia visigoda?",
+    "fuente": "sintomas_españoles.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 13,
+    "pregunta": "Según Juan de Bíclaro, ¿qué papel tuvieron Leandro de Sevilla y Eutropio, abad del monasterio Servitano, en la convocatoria del III Concilio de Toledo?",
+    "fuente": "cronica_iii_concilio.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 14,
+    "pregunta": "¿Por qué intentó Teudis ocupar Ceuta y de quién dependía la guarnición bizantina allí establecida, el magister militum per Africam?",
+    "fuente": "tolosa_toledo.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 15,
+    "pregunta": "¿Qué eran las sortes gothicae y cómo se repartieron la terra dominicata y la terra indominicata entre visigodos y possessores romanos tras el foedus de Valia y Constancio del 418?",
+    "fuente": "capitulo_vii.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 16,
+    "pregunta": "¿A dónde trasladó Alfonso X los restos del rey Wamba según la nota marginal a la Historia de Rodrigo Jiménez de Rada (ad capellam sancte Leocadie)?",
+    "fuente": "Impacto_Concilio_Toledo.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 17,
+    "pregunta": "¿Cómo retrata Gregorio Magno a Hermenegildo con la expresión terrenum regnum despiciens et forti desiderio caeleste quaerens?",
+    "fuente": "Hermenegildo_mártir_tyrannus.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 18,
+    "pregunta": "¿Qué medidas tomó Wamba en Narbona tras derrotar a Paulo y por qué nombró clementiores urbibus rectores?",
+    "fuente": "epilogo_ultimos_reyes.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 19,
+    "pregunta": "¿Qué diferencias hay entre uicus, locus, villa y pagus en el poblamiento visigodo y cómo definen las actas del concilio XII de Toledo el uicus?",
+    "fuente": "siglo_vii_poder.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 20,
+    "pregunta": "¿Qué revela la inscripción de Cartagena del magister militum Spaniae Comentiolus sobre la actitud de Bizancio ante la conversión visigoda del 589?",
+    "fuente": "conversion_visigodos.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 21,
+    "pregunta": "¿Qué dilema planteaba a Isidoro de Sevilla la cura animarum heredada de su hermano Leandro y qué relación tiene con el sermo humilis de Cesáreo de Arlés?",
+    "fuente": "isidoro_sevilla.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 22,
+    "pregunta": "¿Qué pasajes bíblicos sobre la unidad, como unus grex et unus pastor, utilizó Leandro en la homilía del III Concilio de Toledo?",
+    "fuente": "Transfondo_teológico.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 23,
+    "pregunta": "¿Qué concilios provinciales se celebraron bajo Recaredo en cumplimiento del canon 18 y qué cargos, como el rector rerum publicarum, asistieron al concilio de Sevilla del 619?",
+    "fuente": "concilis_toledo.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 24,
+    "pregunta": "¿Qué funciones asumieron los duces provinciae, los comites civitatis y los thiufados tras las reformas de Chindasvinto y Recesvinto?",
+    "fuente": "suarez_reino_toledo.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 25,
+    "pregunta": "¿Qué dispuso el concilio de Tarragona del 516 sobre la asistencia de laicos a los concilios provinciales (aliquos de filiis saecularibus secum adducere)?",
+    "fuente": "Credo_comunión.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 26,
+    "pregunta": "¿Qué importancia tiene la idea de innouatio en las Actas del III Concilio de Toledo y en la homilía de Leandro (festiuitatum nouitas, noua conuersio)?",
+    "fuente": "fecha_importante.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 27,
+    "pregunta": "¿Qué afirmó Leovigildo en el sínodo arriano de Toledo del 580 sobre el bautismo de quienes venían de la Romana religio, y cómo se relaciona con sus monedas de cruz sobre gradas?",
+    "fuente": "conversion_notas_criticas.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 28,
+    "pregunta": "¿Cómo describe Juan de Biclaro la expansión de Leovigildo (adepto Spaniae et Galliae principatu) y qué implica identificar Spania con el regnum de la gens Gothorum?",
+    "fuente": "hispania-spania.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 29,
+    "pregunta": "¿Quién fue Facundus de Hermiane, qué escribió en Constantinopla en Pro defensione trium capitulorum y qué indica que Julián de Toledo conociera esa obra?",
+    "fuente": "critica.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 30,
+    "pregunta": "¿Qué relata la Crónica de Albelda sobre la ocupación de Hispania por los sarracenos (regnumque Gotorum capiunt)?",
+    "fuente": "gestion_memoria.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 31,
+    "pregunta": "Según Gregorio de Tours e Isidoro, ¿cómo actuó Leovigildo contra los nobles más poderosos (aut capite truncavit aut proscriptos in exilium egit)?",
+    "fuente": "invasiones_reinos_germánicos.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 32,
+    "pregunta": "¿Por qué la Historia Gothorum de Isidoro dice que Liuva II era ignobili matre progenitus y qué relación tuvo eso con su deposición por Witérico?",
+    "fuente": "baddo.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 33,
+    "pregunta": "¿Cómo presentan los historiadores visigodos la batalla de Carcasona mediante la oposición entre militia christi y militia diaboli?",
+    "fuente": "sacralizacion_guerra.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 34,
+    "pregunta": "¿Qué ordenaba el canon 18 del III Concilio de Toledo sobre la reunión anual de los iudices locorum y actores fiscalium patrimoniorum con los obispos?",
+    "fuente": "laicos.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 35,
+    "pregunta": "¿Qué fórmula acompaña la unción en el Liber Ordinum (Signum vitae aeternae) y por qué la unción y la imposición de manos forman un todo inseparable?",
+    "fuente": "uncion_imposicion.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 36,
+    "pregunta": "¿Qué conquistas de Eurico en la Tarraconense recogen Isidoro y la Chronica caesaraugustana sobre el comes Gothorum Gaterico?",
+    "fuente": "provincia_cartaginense.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 37,
+    "pregunta": "¿Por qué Gundesindo y Enderquina liberaron a sus siervos y fundaron monasterios entre el Duero y el Vouga en el año 947?",
+    "fuente": "España_enigma_histórico.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 38,
+    "pregunta": "¿Quién fue Zenón de Sevilla y qué autoridad le concedió el papa Simplicio (vicaria sedis nostrae auctoritate)?",
+    "fuente": "primado_romano.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 39,
+    "pregunta": "¿Cómo se titula Alfonso VI en el diploma de 1097 tras la toma de Toledo (imperante christianorum quam et paganorum omnia Hispaniae regna)?",
+    "fuente": "de_que_hablamos.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 40,
+    "pregunta": "¿Qué obispos firmaron los anatemas contra el arrianismo en el III Concilio de Toledo y qué obispos, como Uldila, Sunna o Athaloc, rechazaron convertirse?",
+    "fuente": "cristianismo_pueblos_germánicos.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 41,
+    "pregunta": "¿Qué obra compuso Isidoro de Sevilla contra los judaizantes (Liber de variis quaestionibus adversus iudaeos) y quién era el judaizante Froga reprendido por el obispo Aurasio?",
+    "fuente": "problema_judíos.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 42,
+    "pregunta": "¿Qué indica la fórmula ab episcopis totius Spaniae vel Galliae del manuscrito Vigiliano sobre la percepción de la Narbonense desde Toledo?",
+    "fuente": "tarraconense_narbonense.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 43,
+    "pregunta": "¿Cómo describen Jordanes e Isidoro la elección de Alarico como rey (ordinant super se regem Alaricum) y por qué se interpreta como una institución de nuevo cuño?",
+    "fuente": "rey_poder_monarquia.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 44,
+    "pregunta": "¿Cómo explica Isidoro en sus Etimologías el significado de ecclesia, católica y herejía?",
+    "fuente": "sefarad.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 45,
+    "pregunta": "¿Qué papel tenían presbíteros, diáconos y laicos en los concilios según la fórmula isidoriana (Nullus autem episcoporum a coetu communi secedat) y qué cambió con Recesvinto?",
+    "fuente": "Martínez_Concilios_Toledo.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 46,
+    "pregunta": "¿Quién fue Arîb ibn Sa'd y cómo aparece su nombre en la traducción latina del Calendario de Córdoba (Harib filii Zeid episcopi)?",
+    "fuente": "Collectio_conciliorum.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 47,
+    "pregunta": "¿Qué significa la frase Fides vestra nostra victoria est de Avito de Vienne sobre la conversión de Clodoveo y qué papel tuvo Clotilde?",
+    "fuente": "doble_conversion.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 48,
+    "pregunta": "¿Cómo se manifiesta en el Concilio VI de Toledo el acuerdo entre Chintila, los viri illustres y optimates y los obispos sobre la política antijudía?",
+    "fuente": "iniciación_política_concordataria.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 49,
+    "pregunta": "¿Qué variantes textuales, como coetum y agmen, relacionan el códice de Julián de Alkalaga con la Colección de Saint-Maur?",
+    "fuente": "tradición_manuscrita.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 50,
+    "pregunta": "¿Qué celebra la constitución de Justiniano del 533 incluida en el Corpus iuris civilis tras la destrucción del reino vándalo?",
+    "fuente": "bizancio.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 51,
+    "pregunta": "¿Qué es la societas fidelium Christi de Isidoro de Sevilla y cómo se refleja en el Concilio IV de Toledo del 633?",
+    "fuente": "Concilio_III_Toledo_589.txt",
+    "tipo": "dato_un_parrafo"
+  },
+  {
+    "num": 52,
+    "pregunta": "¿Qué causas atribuyen los historiadores a la rebelión de Hermenegildo en Sevilla contra Leovigildo (tyrannidem contra patrem sumpsit) y qué peso dan a la religión frente a los motivos políticos?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 53,
+    "pregunta": "¿Por qué Gregorio Magno presenta a Hermenegildo como mártir mientras otras fuentes lo tratan como tyrannus, y por qué se silenció su nombre en el III Concilio de Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 54,
+    "pregunta": "¿Qué quiere decir Juan de Biclaro con la expresión factione Gosvinthae y qué papel tuvieron Gosvinta e Ingunda en las tensiones de la corte de Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 55,
+    "pregunta": "¿Qué buscaba Leovigildo al asociar a sus hijos como consortes regni y casarlos con princesas merovingias como Ingunda, hija de Sigeberto de Austrasia?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 56,
+    "pregunta": "¿Por qué fundó Leovigildo la ciudad de Recópolis en la Celtiberia y qué significado político tuvo esa fundación?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 57,
+    "pregunta": "¿Qué hizo Leandro de Sevilla en Constantinopla y por qué Gregorio Magno le dedicó los Moralia in Iob?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 58,
+    "pregunta": "¿Cómo llegaron los bizantinos a la provincia de Spania durante la guerra civil entre Agila y Atanagildo y qué consecuencias tuvo para el reino visigodo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 59,
+    "pregunta": "¿Qué consecuencias tuvo la derrota de Alarico II ante Clodoveo en Vouillé (Vogladum) para el reino de Tolosa y para el traslado de los visigodos a Hispania?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 60,
+    "pregunta": "¿Qué establece el canon 75 del IV Concilio de Toledo sobre la elección del rey y por qué se ha considerado a Sisenando un tyrannus tras derrocar a Suintila?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 61,
+    "pregunta": "¿Qué importancia tuvo la unción regia de Wamba en Toledo según la Historia Wambae de Julián de Toledo, y por qué Paulo se proclamó unctus rex orientalis en la Narbonense?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 62,
+    "pregunta": "¿En qué se diferencia el arrianismo que Ulfilas transmitió a los godos, descrito en la Epistula de vita fide et obitu Ulfilae, del arrianismo reformado que Leovigildo propuso en el sínodo de Toledo del 580?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 63,
+    "pregunta": "¿Por qué derogó Leovigildo en la lex antiqua del Liber Iudiciorum la prohibición de los matrimonios mixtos entre godos e hispanorromanos y cómo encaja en su política de unificación desde Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 64,
+    "pregunta": "¿Qué cuenta la Historia Gothorum de Isidoro sobre Witerico, el asesinato de Liuva II y su supuesto intento de restauración arriana en Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 65,
+    "pregunta": "¿En qué consistió la purga de la nobleza de Chindasvinto y cómo quedó la aristocracia reducida al officium palatinum de Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 66,
+    "pregunta": "¿Qué se sabe de la reina Baddo, esposa de Recaredo, y de su firma como gloriosa regina en el III Concilio de Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 67,
+    "pregunta": "¿Cómo reaccionó Gregorio Magno desde Roma ante la conversión de los godos y por qué llama a Recaredo regi Gothorum atque Suevorum?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 68,
+    "pregunta": "¿Qué etapas se distinguen en la conversión de los suevos de la Gallaecia y qué papel tuvo Martín de Braga, autor del De correctione rusticorum?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 69,
+    "pregunta": "¿Qué valor tienen las Vitas Sanctorum Patrum Emeritensium como fuente sobre la Iglesia de Mérida y sobre obispos como Paulo, Fidel y Masona?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 70,
+    "pregunta": "¿Qué información dan el De viris illustribus de Isidoro de Sevilla y su continuación por Ildefonso de Toledo sobre los escritores de la Hispania visigoda?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 71,
+    "pregunta": "¿Qué papel tuvieron los partidarios de Witiza, a quien la Crónica mozárabe llama clementissimus, y el rey Rodrigo en la derrota de Guadalete del 711?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 72,
+    "pregunta": "¿Cómo influyó la tutela ostrogoda de Teodorico el Grande durante la minoría de Amalarico en Narbona y Barcelona, según fuentes como la Chronica Caesaraugustana?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 73,
+    "pregunta": "¿El Código de Eurico (Codex Euricianus) y el Breviario de Alarico o Lex Romana Visigothorum eran leyes de aplicación personal o territorial en el reino de Tolosa?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 74,
+    "pregunta": "¿Quién fue Juan de Biclaro, qué le ocurrió bajo Leovigildo tras volver de Constantinopla a Barcelona y qué valor tiene su Chronicon como fuente?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 75,
+    "pregunta": "¿Qué es la Laus Spaniae con que Isidoro de Sevilla abre la Historia Gothorum y cómo la han interpretado los historiadores?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 76,
+    "pregunta": "¿Quiénes eran los gardingos y qué lugar ocupaban junto a duces y comites en el officium palatinum de Toledo según la ley militar de Wamba y Ervigio?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 77,
+    "pregunta": "¿Cómo transformó Leovigildo la imagen de la realeza visigoda con el trono y las vestiduras regias, y qué relación tiene con Toledo como urbs regia a imitación de Constantinopla?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 78,
+    "pregunta": "¿Qué papel tuvieron las alianzas exteriores en las usurpaciones visigodas, como la de Atanagildo con los bizantinos en Spania, la de Sisenando con el franco Dagoberto pagada con el missorium y la de Paulo en la Narbonense contra Wamba?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 79,
+    "pregunta": "¿Cómo fueron las relaciones de la Iglesia visigoda con Roma a la luz de la respuesta de Braulio de Zaragoza al papa Honorio I y del Apologeticum de Julián de Toledo ante Benedicto II?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 80,
+    "pregunta": "¿Cómo intervino Braulio de Zaragoza en la asociación de Recesvinto al trono de Chindasvinto como consors regni?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 81,
+    "pregunta": "¿Cómo se usaron la tonsura y la paenitentia para apartar del trono a reyes visigodos, como Tulga bajo Chindasvinto o Wamba bajo Ervigio, y qué resolvió el XII Concilio de Toledo?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 82,
+    "pregunta": "¿Qué fue la conspiración del dux y cubicularius Argimundo contra Recaredo en Toledo y qué significa la frase del Biclarense docuit famulos dominis suis non esse superbos?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 83,
+    "pregunta": "¿Qué consecuencias tuvo el cisma de los Tres Capítulos (Tria Capitula), impulsado por Justiniano, en las relaciones de la Iglesia hispana con Roma y con Constantinopla?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 84,
+    "pregunta": "¿Qué relación tuvieron con la Cartagena bizantina Liciniano, obispo de la ciudad, y la familia de Severiano, padre de Leandro e Isidoro, y qué contactos mantuvieron con Gregorio Magno y sus Moralia?",
+    "tipo": "sintesis_varios_textos"
+  },
+  {
+    "num": 85,
+    "pregunta": "¿Qué papel tuvo la doctrina de Prisciliano en los concilios hispanos como el I de Toledo, con su Regula fidei contra omnes haereses, y los de Braga?",
+    "tipo": "sintesis_varios_textos"
+  }
+]
