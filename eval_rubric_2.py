@@ -9,10 +9,6 @@ import time
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# ---------------------------------------------------------------------------
-# CONFIGURACIÓN — idéntica a evaluador_v2.py (solo cambia la rúbrica)
-# ---------------------------------------------------------------------------
-
 MODEL = "gpt-4.1-mini"
 TEMPERATURE = 0
 MAX_REINTENTOS = 3
@@ -27,11 +23,6 @@ DIMS = [
     "relevancia_foco",
 ]
 
-# ---------------------------------------------------------------------------
-# RÚBRICA 2 — texto literal. Debe quedar CONGELADO antes de ejecutar.
-# Si los coautores la modifican, se pega aquí la versión final; el hash cambia
-# y queda registrado en cada resultado.
-# ---------------------------------------------------------------------------
 
 SYSTEM_PROMPT = """Vas a evaluar respuestas a preguntas de historia de nivel universitario sobre la Hispania visigoda y la historiografía que se ha ocupado de ella.
 
@@ -99,10 +90,6 @@ RUBRICA_SHA256 = hashlib.sha256(
 ).hexdigest()
 
 
-# ---------------------------------------------------------------------------
-# LÓGICA DE EVALUACIÓN
-# ---------------------------------------------------------------------------
-
 def _validar(raw: dict) -> dict:
     """Comprueba la estructura y que cada puntuación sea un entero 0-10."""
     evaluaciones = {}
@@ -162,10 +149,6 @@ def evaluar_rubrica2(client: OpenAI, pregunta: str, respuesta: str,
             "rubrica_sha256": RUBRICA_SHA256}
 
 
-# ---------------------------------------------------------------------------
-# BATCH SOBRE LOS RUNS
-# ---------------------------------------------------------------------------
-
 def nombre_config(ruta: str) -> str:
     """resultados_ragas_gpt5mini_ragsimple_run2.json -> gpt5mini_ragsimple"""
     m = re.match(r"resultados_ragas_(.+)_run\d+\.json$", os.path.basename(ruta))
@@ -201,7 +184,6 @@ def procesar_fichero(client, ruta, limite, force, dry_run):
             continue
 
         item[CLAVE_RESULTADO] = res
-        # guardado incremental (reanudable)
         tmp = ruta + ".tmp"
         with open(tmp, "w", encoding="utf-8") as fh:
             json.dump(datos, fh, ensure_ascii=False, indent=2)
