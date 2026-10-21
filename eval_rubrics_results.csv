@@ -1,0 +1,451 @@
+config_id,run,question_id,question,answer_chars,R1_relevance,R1_completeness,R1_coherence,R1_factual_accuracy,R1_mean,R2_historical_accuracy_attribution,R2_task_fulfilment,R2_epistemic_precision,R2_reasoning_synthesis,R2_relevance_focus,R2_mean,R2_major_error
+B1,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2262,3,2,8,3,4.0,2,3,4,4,3,3.2,True
+B1,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1646,9,7,9,9,8.5,7,6,5,6,7,6.2,False
+B1,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1689,6,3,9,8,6.5,7,7,6,7,6,6.6,False
+B1,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1837,7,3,6,3,4.75,4,5,3,4,5,4.2,True
+B1,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1514,5,3,7,3,4.5,3,4,4,4,6,4.2,True
+B1,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1370,9,7,9,8,8.25,7,7,6,7,6,6.6,False
+B1,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1693,9,6,9,8,8.0,7,7,6,7,6,6.6,False
+B1,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2145,4,2,8,5,4.75,8,9,7,8,8,8.0,False
+B1,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1733,9,7,8,6,7.5,5,7,6,6,6,6.0,True
+B1,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2353,9,6,9,8,8.0,7,8,7,7,6,7.0,False
+B1,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,2010,6,3,9,7,6.25,4,5,3,4,6,4.4,True
+B1,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2387,8,6,9,8,7.75,7,8,7,8,7,7.4,False
+B1,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1327,3,2,8,7,5.0,3,3,6,4,4,4.0,True
+B1,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2106,9,6,9,8,8.0,8,9,7,8,9,8.2,False
+B1,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1885,8,5,9,8,7.5,5,5,4,6,6,5.2,False
+B1,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1843,6,3,8,5,5.5,3,4,5,5,4,4.2,True
+B1,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1603,8,4,9,8,7.25,6,5,6,6,7,6.0,True
+B1,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1678,4,3,8,7,5.5,6,5,5,6,5,5.4,False
+B1,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1962,9,5,9,8,7.75,6,5,6,6,7,6.0,True
+B1,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1253,7,5,9,7,7.0,7,6,7,7,8,7.0,False
+B1,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1429,9,7,9,8,8.25,8,7,6,7,6,6.8,False
+B1,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1970,9,6,9,8,8.0,7,7,6,6,6,6.4,False
+B1,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1830,4,2,8,8,5.5,7,8,7,8,8,7.6,False
+B1,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1626,9,7,9,8,8.25,6,8,6,7,6,6.6,True
+B1,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2290,9,6,9,8,8.0,6,7,7,6,5,6.2,True
+B1,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,2432,6,3,9,8,6.5,7,8,6,7,7,7.0,False
+B1,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2666,9,8,9,9,8.75,9,9,8,9,9,8.8,False
+B1,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1640,3,2,8,3,4.0,4,4,6,5,5,4.8,True
+B1,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2982,9,4,9,8,7.5,5,7,5,6,8,6.2,True
+B1,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1577,7,6,9,8,7.5,6,5,5,6,5,5.4,False
+B1,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2404,4,2,8,3,4.25,3,2,4,3,3,3.0,True
+B1,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1931,8,5,9,8,7.5,6,5,5,6,5,5.4,True
+B1,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1657,6,4,9,8,6.75,7,6,6,7,5,6.2,False
+B1,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1807,7,3,8,7,6.25,6,5,5,6,6,5.6,True
+B1,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1217,6,4,8,5,5.75,5,4,6,5,4,4.8,True
+B1,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1512,9,7,9,9,8.5,8,7,6,7,6,6.8,False
+B1,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1726,8,4,9,8,7.25,6,5,6,6,5,5.6,False
+B1,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1633,4,2,8,7,5.25,8,9,7,8,9,8.2,False
+B1,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1249,10,9,10,9,9.5,9,9,9,8,8,8.6,False
+B1,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2508,9,6,9,8,8.0,7,8,7,8,9,7.8,False
+B1,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,2320,9,5,9,8,7.75,6,5,5,6,6,5.6,False
+B1,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2278,9,7,9,9,8.5,9,9,8,9,8,8.6,False
+B1,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1588,2,1,8,3,3.5,3,3,4,4,5,3.8,True
+B1,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2536,9,4,9,8,7.5,6,7,5,6,7,6.2,True
+B1,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1779,8,6,9,8,7.75,4,5,3,4,4,4.0,True
+B2,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2169,9,6,9,8,8.0,9,9,9,9,9,9.0,False
+B2,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,2670,9,9,10,10,9.5,9,9,8,9,8,8.6,False
+B2,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2337,9,4,10,9,8.0,9,9,8,9,8,8.6,False
+B2,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,4188,10,7,9,9,8.75,9,9,9,9,8,8.8,False
+B2,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1418,7,4,9,8,7.0,9,7,9,8,8,8.2,False
+B2,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1168,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+B2,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",2326,10,7,10,10,9.25,10,10,10,10,10,10.0,False
+B2,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2189,6,3,9,8,6.5,10,10,9,10,10,9.8,False
+B2,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1718,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+B2,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,3825,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+B2,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,2298,7,8,9,9,8.25,9,7,9,8,8,8.2,False
+B2,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4301,9,10,10,10,9.75,10,10,9,10,10,9.8,False
+B2,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2591,2,2,9,8,5.25,9,10,9,9,10,9.4,False
+B2,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4991,9,3,10,10,8.0,10,10,9,10,10,9.8,False
+B2,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1981,9,7,9,9,8.5,8,7,6,8,7,7.2,False
+B2,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1939,9,5,9,8,7.75,9,10,9,9,9,9.2,False
+B2,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,3630,9,9,10,10,9.5,10,10,10,10,9,9.8,False
+B2,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1980,9,4,10,9,8.0,10,10,9,10,10,9.8,False
+B2,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3550,9,6,9,8,8.0,9,9,8,9,9,8.8,False
+B2,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1399,9,8,10,10,9.25,9,9,8,9,9,8.8,False
+B2,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1454,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+B2,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1641,9,7,9,9,8.5,10,10,10,10,10,10.0,False
+B2,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2416,7,3,9,8,6.75,10,10,9,10,10,9.8,False
+B2,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1269,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B2,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,3381,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+B2,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,3649,10,9,10,10,9.75,9,10,9,10,9,9.4,False
+B2,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4653,9,10,10,10,9.75,10,10,9,10,10,9.8,False
+B2,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2311,2,1,9,8,5.0,10,10,10,10,10,10.0,False
+B2,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4969,9,3,10,8,7.5,10,10,9,10,10,9.8,False
+B2,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",2218,9,7,10,9,8.75,9,9,8,9,8,8.6,False
+B2,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2331,9,6,9,8,8.0,9,10,9,9,9,9.2,False
+B2,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,3596,9,10,10,10,9.75,9,9,9,9,8,8.8,False
+B2,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1599,9,4,10,9,8.0,10,10,9,10,10,9.8,False
+B2,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3563,9,6,9,9,8.25,9,9,8,9,9,8.8,False
+B2,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1547,8,4,9,8,7.25,6,5,7,6,6,6.0,True
+B2,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1803,9,9,10,10,9.5,9,10,9,9,10,9.4,False
+B2,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",3103,9,6,9,9,8.25,10,10,10,10,10,10.0,False
+B2,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1924,8,3,9,9,7.25,10,10,9,10,10,9.8,False
+B2,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1331,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+B2,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,4471,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+B2,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,3775,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+B2,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,5037,9,10,7,9,8.75,9,10,9,10,9,9.4,False
+B2,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2954,2,1,9,8,5.0,9,10,9,9,9,9.2,False
+B2,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4719,9,4,10,9,8.0,10,10,9,10,10,9.8,False
+B2,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",3116,9,7,10,9,8.75,9,9,8,9,9,8.8,False
+B3,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2194,9,8,9,10,9.0,9,9,8,8,9,8.6,False
+B3,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1656,10,10,10,10,10.0,9,10,9,9,9,9.2,False
+B3,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1303,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B3,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1472,9,4,9,9,7.75,9,7,9,8,9,8.4,False
+B3,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1126,8,5,9,9,7.75,9,8,10,9,9,9.0,False
+B3,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,799,9,8,9,10,9.0,9,9,8,9,10,9.0,False
+B3,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1245,10,9,10,10,9.75,10,10,9,10,10,9.8,False
+B3,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1716,4,2,8,3,4.25,10,10,9,10,10,9.8,False
+B3,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,898,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B3,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2284,9,7,9,10,8.75,9,10,9,9,10,9.4,False
+B3,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,764,9,5,9,8,7.75,9,9,8,8,9,8.6,False
+B3,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2138,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+B3,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,701,9,3,9,8,7.25,8,7,9,6,9,7.8,False
+B3,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2082,9,4,9,8,7.5,9,10,8,9,9,9.0,False
+B3,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",712,8,2,9,10,7.25,10,3,10,7,8,7.6,False
+B3,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1792,9,8,10,9,9.0,9,9,8,8,9,8.6,False
+B3,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,3030,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+B3,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2285,10,9,10,10,9.75,9,10,8,9,9,9.0,False
+B3,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1486,8,4,9,9,7.5,8,6,9,7,8,7.6,False
+B3,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1096,8,7,9,9,8.25,9,8,10,9,9,9.0,False
+B3,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,788,9,9,10,10,9.5,10,10,9,9,10,9.6,False
+B3,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1313,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B3,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1666,4,2,9,8,5.75,10,10,9,10,10,9.8,False
+B3,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,991,9,9,10,10,9.5,9,10,9,9,10,9.4,False
+B3,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,3193,9,7,9,9,8.5,9,10,9,9,9,9.2,False
+B3,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,669,9,5,9,8,7.75,9,9,8,8,9,8.6,False
+B3,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2643,9,9,10,10,9.5,10,10,9,10,10,9.8,False
+B3,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,921,3,2,8,8,5.25,9,9,8,8,10,8.8,False
+B3,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2616,9,4,9,9,7.75,9,10,9,9,10,9.4,False
+B3,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",960,6,3,9,9,6.75,10,2,9,5,6,6.4,False
+B3,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1870,9,8,9,9,8.75,9,9,8,8,9,8.6,False
+B3,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1628,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+B3,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1489,9,9,10,10,9.5,10,10,9,9,10,9.6,False
+B3,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1209,8,3,9,9,7.25,8,6,9,7,8,7.6,False
+B3,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1349,6,3,9,9,6.75,9,6,9,7,8,7.8,False
+B3,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,844,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B3,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1074,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+B3,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1674,6,3,9,8,6.5,10,10,10,10,10,10.0,False
+B3,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1191,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B3,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2663,9,8,10,10,9.25,9,10,9,9,9,9.2,False
+B3,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1212,9,5,9,8,7.75,9,10,9,9,10,9.4,False
+B3,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2067,9,9,10,10,9.5,10,10,10,10,10,10.0,False
+B3,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,907,3,2,8,8,5.25,8,7,9,7,8,7.8,False
+B3,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2977,9,4,9,8,7.5,9,10,9,9,10,9.4,False
+B3,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",798,4,2,9,9,6.0,7,3,8,5,4,5.4,False
+B4,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2657,9,9,10,9,9.25,9,9,8,8,7,8.2,False
+B4,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1924,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+B4,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1375,9,9,10,10,9.5,10,10,9,10,10,9.8,False
+B4,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2397,9,6,9,9,8.25,9,9,10,9,9,9.2,False
+B4,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,575,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B4,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1033,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B4,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",836,10,9,10,10,9.75,9,9,8,9,9,8.8,False
+B4,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1117,7,3,9,8,6.75,10,10,9,10,10,9.8,False
+B4,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1048,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B4,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2683,9,7,9,9,8.5,9,10,9,9,9,9.2,False
+B4,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1018,9,6,9,9,8.25,9,9,8,8,9,8.6,False
+B4,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2191,9,8,9,10,9.0,9,8,9,9,9,8.8,False
+B4,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,827,9,2,9,8,7.0,8,7,9,7,8,7.8,False
+B4,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2492,9,6,9,9,8.25,9,10,8,9,10,9.2,False
+B4,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",903,7,4,9,9,7.25,7,4,8,6,5,6.0,False
+B4,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1659,9,8,9,9,8.75,9,9,8,8,8,8.4,False
+B4,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1535,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+B4,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2600,9,10,10,10,9.75,10,10,9,10,9,9.6,False
+B4,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2409,9,6,9,9,8.25,9,8,9,8,9,8.6,False
+B4,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,706,10,9,10,10,9.75,9,9,8,9,10,9.0,False
+B4,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,779,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B4,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",855,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+B4,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1689,4,3,9,8,6.0,9,10,9,9,10,9.4,False
+B4,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1175,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+B4,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2925,9,7,10,9,8.75,9,10,10,9,9,9.4,False
+B4,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1237,9,4,9,9,7.75,9,9,8,8,9,8.6,False
+B4,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,1797,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+B4,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,782,3,2,8,8,5.25,8,6,9,7,6,7.2,True
+B4,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2643,9,6,9,9,8.25,9,10,9,9,10,9.4,False
+B4,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1159,6,3,9,9,6.75,7,4,9,6,5,6.2,False
+B4,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1960,9,9,9,9,9.0,9,9,8,8,9,8.6,False
+B4,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1892,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+B4,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1717,10,10,10,10,10.0,10,10,9,9,10,9.6,False
+B4,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2248,9,7,9,9,8.5,9,8,9,9,9,8.8,False
+B4,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1076,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+B4,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1251,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+B4,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",951,9,9,10,10,9.5,9,10,9,9,10,9.4,False
+B4,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1349,8,3,9,8,7.0,10,10,9,10,10,9.8,False
+B4,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1071,10,9,10,9,9.5,10,10,9,9,10,9.6,False
+B4,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2730,9,7,10,9,8.75,9,10,10,9,10,9.6,False
+B4,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1434,9,5,9,8,7.75,9,9,8,8,8,8.4,False
+B4,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2503,9,8,10,10,9.25,9,9,9,9,8,8.8,False
+B4,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,451,3,2,8,8,5.25,8,7,9,7,9,8.0,False
+B4,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2100,9,4,9,8,7.5,9,9,8,9,9,8.8,False
+B4,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",393,7,2,9,10,7.0,10,3,9,4,7,6.6,False
+S1,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2178,9,9,9,9,9.0,9,10,9,9,9,9.2,False
+S1,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,3161,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+S1,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1345,10,9,10,10,9.75,10,10,10,9,10,9.8,False
+S1,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2911,9,6,9,8,8.0,9,9,10,9,9,9.2,False
+S1,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1410,8,6,9,9,8.0,9,8,10,9,9,9.0,False
+S1,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,764,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+S1,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1097,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+S1,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2135,3,2,8,3,4.0,10,10,10,10,10,10.0,False
+S1,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,890,9,8,9,9,8.75,10,10,10,9,10,9.8,False
+S1,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,3608,10,8,10,9,9.25,9,10,9,9,9,9.2,False
+S1,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1413,9,6,9,8,8.0,9,9,8,8,9,8.6,False
+S1,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2984,9,8,10,10,9.25,10,10,10,10,10,10.0,False
+S1,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,625,3,2,8,8,5.25,9,10,9,8,10,9.2,False
+S1,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3714,9,4,9,9,7.75,9,10,9,9,9,9.2,False
+S1,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",414,2,1,9,9,5.25,10,5,9,6,8,7.6,False
+S1,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2233,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+S1,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,2970,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S1,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1419,10,10,10,10,10.0,10,10,10,9,9,9.6,False
+S1,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2725,9,6,9,9,8.25,9,9,9,9,9,9.0,False
+S1,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1161,8,5,9,9,7.75,10,8,10,9,9,9.2,False
+S1,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,975,10,9,10,10,9.75,10,10,10,9,9,9.6,False
+S1,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1234,10,10,10,10,10.0,10,10,9,10,10,9.8,False
+S1,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1760,9,3,9,10,7.75,10,10,10,10,10,10.0,False
+S1,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,2218,9,9,9,10,9.25,10,10,10,10,10,10.0,False
+S1,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2658,9,7,10,9,8.75,9,10,9,9,10,9.4,False
+S1,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1366,9,7,9,9,8.5,9,10,9,8,10,9.2,False
+S1,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2885,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+S1,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1247,3,2,9,8,5.5,9,10,9,8,10,9.2,False
+S1,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3209,9,4,9,8,7.5,9,10,9,9,10,9.4,False
+S1,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",98,2,1,8,9,5.0,0,0,0,0,0,0.0,False
+S1,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1619,9,9,10,9,9.25,9,10,9,9,10,9.4,False
+S1,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4565,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S1,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1756,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S1,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2354,9,6,9,8,8.0,9,7,9,9,8,8.4,False
+S1,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,894,7,4,9,9,7.25,9,6,9,7,9,8.0,False
+S1,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,888,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S1,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1132,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+S1,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2975,6,3,8,4,5.25,10,10,10,10,9,9.8,False
+S1,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,821,10,8,10,9,9.25,10,10,9,9,10,9.6,False
+S1,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2758,9,6,9,8,8.0,9,10,9,9,9,9.2,False
+S1,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,914,9,6,9,9,8.25,9,9,8,9,9,8.8,False
+S1,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,3557,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+S1,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,670,3,2,8,8,5.25,9,8,9,8,9,8.6,False
+S1,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4150,9,6,9,9,8.25,9,10,9,9,9,9.2,False
+S1,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",783,4,3,8,9,6.0,7,4,8,6,6,6.2,False
+S2,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2162,9,9,10,10,9.5,10,10,10,9,10,9.8,False
+S2,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4055,10,10,10,10,10.0,9,10,9,9,8,9.0,False
+S2,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1345,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S2,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3958,9,6,9,8,8.0,9,9,9,9,9,9.0,False
+S2,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1121,9,9,10,10,9.5,10,10,10,10,10,10.0,False
+S2,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,964,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S2,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1948,9,10,10,10,9.75,10,10,10,10,10,10.0,False
+S2,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2398,6,2,9,8,6.25,10,10,10,10,10,10.0,False
+S2,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,890,9,8,9,9,8.75,10,10,10,9,10,9.8,False
+S2,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,5369,10,9,10,10,9.75,9,10,10,10,9,9.6,False
+S2,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1146,9,7,10,9,8.75,10,10,9,9,10,9.6,False
+S2,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4038,9,9,10,10,9.5,10,10,9,10,9,9.6,False
+S2,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,755,3,2,8,7,5.0,9,8,9,8,9,8.6,False
+S2,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4854,9,8,10,10,9.25,9,10,9,9,9,9.2,False
+S2,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1508,4,2,9,9,6.0,10,8,9,7,9,8.6,False
+S2,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2233,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+S2,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4019,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+S2,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,920,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S2,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2725,9,7,9,9,8.5,9,9,9,9,9,9.0,False
+S2,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1378,8,6,9,9,8.0,10,9,10,9,10,9.6,False
+S2,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,975,10,9,10,10,9.75,10,10,10,9,9,9.6,False
+S2,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",2450,10,10,10,10,10.0,10,10,9,9,9,9.4,False
+S2,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",853,7,3,9,9,7.0,9,9,8,9,10,9.0,False
+S2,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1328,10,9,10,10,9.75,10,10,10,9,9,9.6,False
+S2,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,5277,10,9,10,10,9.75,9,10,10,9,8,9.2,False
+S2,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,992,9,5,9,9,8.0,9,10,9,9,10,9.4,False
+S2,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2885,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+S2,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1247,3,2,8,8,5.25,9,10,9,9,10,9.4,False
+S2,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3209,9,4,9,9,7.75,9,10,9,9,10,9.4,False
+S2,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1345,3,2,9,10,6.0,7,3,9,6,4,5.8,False
+S2,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1619,9,8,9,9,8.75,9,10,9,9,10,9.4,False
+S2,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4565,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+S2,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1756,10,9,10,10,9.75,10,10,10,9,9,9.6,False
+S2,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,2354,9,6,9,8,8.0,9,8,9,9,9,8.8,False
+S2,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1497,9,8,10,10,9.25,9,9,10,9,9,9.2,False
+S2,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,888,10,9,10,10,9.75,10,10,10,9,9,9.6,False
+S2,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",757,9,7,9,9,8.5,9,10,9,9,10,9.4,False
+S2,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2975,6,3,9,9,6.75,10,10,10,10,10,10.0,False
+S2,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,857,10,9,10,10,9.75,10,10,10,9,10,9.8,False
+S2,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2758,9,6,10,9,8.5,9,10,9,9,10,9.4,False
+S2,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,907,9,5,9,8,7.75,9,9,8,8,9,8.6,False
+S2,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4293,10,10,10,10,10.0,10,10,9,10,9,9.6,False
+S2,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,928,2,2,9,9,5.5,9,10,10,9,10,9.6,False
+S2,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3700,9,3,9,10,7.75,9,10,9,9,10,9.4,False
+S2,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1474,4,3,9,9,6.25,8,5,9,7,6,7.0,False
+S3,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2795,10,9,10,10,9.75,9,10,9,9,8,9.0,False
+S3,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4135,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+S3,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,3356,10,10,10,10,10.0,10,10,9,10,9,9.6,False
+S3,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3812,9,7,9,9,8.5,9,10,9,9,9,9.2,False
+S3,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1356,9,9,10,10,9.5,9,9,9,9,9,9.0,False
+S3,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1615,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S3,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",2711,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S3,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",3085,9,3,10,7,7.25,10,10,9,10,10,9.8,False
+S3,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1604,10,9,9,10,9.5,10,10,10,10,10,10.0,False
+S3,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,4908,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+S3,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,2455,9,8,10,10,9.25,10,10,9,10,10,9.8,False
+S3,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4998,9,10,10,10,9.75,10,10,9,10,9,9.6,False
+S3,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2387,2,1,9,8,5.0,10,10,10,10,10,10.0,False
+S3,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,5046,10,7,10,10,9.25,10,10,9,10,10,9.8,False
+S3,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",3089,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S3,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2118,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+S3,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4829,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+S3,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2698,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S3,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,4262,9,8,9,9,8.75,9,9,9,9,9,9.0,False
+S3,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,2201,9,10,10,10,9.75,10,10,10,10,10,10.0,False
+S3,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,2190,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S3,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",4014,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+S3,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1861,8,3,9,9,7.25,10,10,9,10,9,9.6,False
+S3,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1628,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S3,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,3976,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S3,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,4062,9,8,10,10,9.25,10,10,9,10,9,9.6,False
+S3,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,5765,9,9,10,10,9.5,10,10,9,10,9,9.6,False
+S3,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2459,2,2,9,8,5.25,10,10,10,10,10,10.0,False
+S3,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,5932,9,3,9,9,7.5,10,10,9,10,9,9.6,False
+S3,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",2736,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S3,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2945,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+S3,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4897,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S3,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2348,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+S3,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,4733,10,9,10,10,9.75,10,10,9,10,9,9.6,False
+S3,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1963,9,10,10,10,9.75,10,10,10,10,10,10.0,False
+S3,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,944,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S3,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",2941,9,7,10,9,8.75,9,9,10,9,9,9.2,False
+S3,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2968,9,4,9,9,7.75,10,10,10,10,10,10.0,False
+S3,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,2698,9,9,9,10,9.25,10,10,10,9,9,9.6,False
+S3,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,4321,9,7,10,9,8.75,9,10,9,9,9,9.2,False
+S3,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,3981,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+S3,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4990,9,9,10,10,9.5,10,10,9,10,9,9.6,False
+S3,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2408,3,2,9,8,5.5,10,10,10,10,10,10.0,False
+S3,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4237,9,4,10,9,8.0,10,10,9,10,10,9.8,False
+S3,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1588,9,6,9,9,8.25,8,7,7,8,7,7.4,False
+C1,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2956,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+C1,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,2248,10,9,10,10,9.75,9,9,9,9,9,9.0,False
+C1,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,950,10,9,10,10,9.75,10,10,10,9,10,9.8,False
+C1,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3850,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+C1,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1332,9,9,10,10,9.5,9,10,9,9,10,9.4,False
+C1,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1073,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+C1,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1474,10,10,10,10,10.0,10,10,9,10,10,9.8,False
+C1,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2041,8,3,9,9,7.25,10,10,10,10,10,10.0,False
+C1,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,852,10,8,10,10,9.5,10,10,9,9,10,9.6,False
+C1,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2374,9,7,10,10,9.0,9,10,9,9,10,9.4,False
+C1,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,555,9,6,9,8,8.0,9,8,8,8,9,8.4,False
+C1,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4414,9,9,10,10,9.5,10,10,9,10,9,9.6,False
+C1,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1234,3,2,9,9,5.75,9,10,9,9,10,9.4,False
+C1,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2536,9,4,9,9,7.75,10,10,9,10,10,9.8,False
+C1,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",98,1,1,9,10,5.25,0,0,0,0,1,0.2,False
+C1,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2962,10,9,10,10,9.75,10,10,9,9,9,9.4,False
+C1,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4038,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+C1,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1505,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+C1,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3288,9,7,9,9,8.5,9,9,9,9,9,9.0,False
+C1,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1567,9,6,9,9,8.25,9,9,10,9,10,9.4,False
+C1,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1078,9,8,10,10,9.25,10,10,9,9,10,9.6,False
+C1,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",1631,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+C1,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2065,9,3,9,10,7.75,10,10,9,10,10,9.8,False
+C1,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1204,10,9,10,10,9.75,10,10,10,9,10,9.8,False
+C1,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,5803,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+C1,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1380,9,7,9,9,8.5,10,10,10,10,10,10.0,False
+C1,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,6037,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+C1,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1249,9,2,9,8,7.0,9,9,9,8,9,8.8,False
+C1,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3784,9,6,10,10,8.75,9,10,9,9,9,9.2,False
+C1,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",317,2,1,9,10,5.5,10,2,9,3,7,6.2,False
+C1,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1950,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+C1,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,2201,10,9,10,10,9.75,9,10,10,9,9,9.4,False
+C1,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1528,10,10,10,10,10.0,10,10,9,9,10,9.6,False
+C1,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,5900,9,7,9,8,8.25,9,9,9,9,8,8.8,False
+C1,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,2032,9,7,10,10,9.0,9,9,10,9,10,9.4,False
+C1,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1762,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+C1,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",820,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+C1,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2298,9,3,9,9,7.5,10,10,9,10,10,9.8,False
+C1,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,817,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+C1,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2696,9,6,9,9,8.25,9,10,9,9,9,9.2,False
+C1,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1060,9,7,9,9,8.5,9,10,9,9,10,9.4,False
+C1,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,3770,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+C1,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,762,9,2,9,8,7.0,7,6,8,7,6,6.8,True
+C1,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3041,9,4,9,9,7.75,9,10,9,9,10,9.4,False
+C1,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",98,2,1,8,10,5.25,0,0,0,0,0,0.0,False
+C2,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2607,9,9,10,10,9.5,9,10,10,9,9,9.4,False
+C2,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,4175,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+C2,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2088,10,9,10,10,9.75,10,10,9,10,10,9.8,False
+C2,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,4876,9,8,9,9,8.75,9,9,9,9,8,8.8,False
+C2,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1332,9,9,10,10,9.5,9,9,9,9,9,9.0,False
+C2,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1904,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+C2,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",3519,9,10,10,10,9.75,10,10,10,10,9,9.8,False
+C2,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",3070,8,3,9,9,7.25,10,10,10,10,9,9.8,False
+C2,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1078,10,9,10,10,9.75,10,10,10,9,10,9.8,False
+C2,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,4285,9,7,9,10,8.75,10,10,10,10,9,9.8,False
+C2,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,2654,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+C2,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,7443,9,8,10,10,9.25,10,10,9,10,9,9.6,False
+C2,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2814,2,2,9,10,5.75,10,10,10,10,10,10.0,False
+C2,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,6022,9,6,9,9,8.25,10,10,9,10,10,9.8,False
+C2,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",2895,9,10,10,10,9.75,10,10,9,9,9,9.4,False
+C2,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",2962,10,9,10,10,9.75,9,10,9,9,8,9.0,False
+C2,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,2857,10,10,10,10,10.0,10,10,10,9,9,9.6,False
+C2,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,4276,9,10,10,10,9.75,10,10,10,10,9,9.8,False
+C2,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,3599,9,7,9,9,8.5,9,8,9,9,9,8.8,False
+C2,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,2063,9,10,10,10,9.75,10,10,10,10,9,9.8,False
+C2,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1553,10,9,10,10,9.75,10,10,9,10,10,9.8,False
+C2,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",3610,10,10,10,10,10.0,10,10,10,10,9,9.8,False
+C2,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2970,4,2,9,7,5.5,10,10,10,10,10,10.0,False
+C2,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,1855,10,10,10,10,10.0,10,10,9,9,9,9.4,False
+C2,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,4558,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+C2,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,3328,9,7,9,9,8.5,10,10,9,9,9,9.4,False
+C2,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,5190,9,9,10,10,9.5,10,10,9,10,9,9.6,False
+C2,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,2668,3,2,9,8,5.5,9,10,9,9,9,9.2,False
+C2,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,5280,10,8,10,10,9.5,10,10,9,10,10,9.8,False
+C2,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",3342,6,3,9,9,6.75,9,5,10,8,6,7.6,False
+C2,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",3123,9,9,10,10,9.5,9,10,9,9,9,9.2,False
+C2,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,3548,10,10,10,10,10.0,9,9,9,9,8,8.8,False
+C2,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,2304,10,10,10,10,10.0,10,10,9,10,10,9.8,False
+C2,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,4968,10,9,10,10,9.75,10,10,10,10,9,9.8,False
+C2,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,2500,9,9,10,10,9.5,10,10,10,10,10,10.0,False
+C2,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,1245,9,8,9,9,8.75,9,9,8,9,9,8.8,False
+C2,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",2610,9,10,10,10,9.75,10,10,10,10,10,10.0,False
+C2,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",3012,9,3,9,9,7.5,10,10,9,10,9,9.6,False
+C2,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,817,10,9,10,10,9.75,10,10,10,9,10,9.8,False
+C2,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,4778,9,7,10,9,8.75,10,10,10,10,10,10.0,False
+C2,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,3975,9,8,9,10,9.0,10,10,10,10,9,9.8,False
+C2,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,5195,9,9,10,10,9.5,10,10,9,10,9,9.6,False
+C2,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,1715,9,4,9,9,7.75,9,8,9,9,9,8.8,False
+C2,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,4108,9,3,9,9,7.5,9,10,8,9,9,9.0,False
+C2,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",4132,9,9,10,10,9.5,10,10,10,10,10,10.0,False
+C3,1,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1354,9,8,9,9,8.75,9,9,9,9,8,8.8,False
+C3,1,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1897,10,9,10,10,9.75,10,10,9,10,9,9.6,False
+C3,1,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1304,10,10,10,10,10.0,10,10,10,10,10,10.0,False
+C3,1,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1671,9,7,9,9,8.5,9,8,9,9,9,8.8,False
+C3,1,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,1264,10,10,10,10,10.0,10,10,9,10,10,9.8,False
+C3,1,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,905,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+C3,1,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",753,10,9,10,10,9.75,9,9,8,9,9,8.8,False
+C3,1,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",1605,9,3,9,9,7.5,10,10,9,10,10,9.8,False
+C3,1,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,899,10,8,10,9,9.25,10,10,10,9,10,9.8,False
+C3,1,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2176,9,7,9,9,8.5,9,10,10,9,10,9.6,False
+C3,1,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,1111,9,7,9,9,8.5,9,10,9,9,10,9.4,False
+C3,1,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2490,9,9,10,10,9.5,10,10,10,10,10,10.0,False
+C3,1,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,725,3,2,8,8,5.25,9,8,9,8,9,8.6,False
+C3,1,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,3000,9,3,9,10,7.75,9,10,9,9,10,9.4,False
+C3,1,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1076,7,4,9,10,7.5,8,4,9,7,6,6.8,False
+C3,2,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1407,9,8,10,9,9.0,9,9,8,9,10,9.0,False
+C3,2,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1957,10,9,10,10,9.75,10,10,10,10,10,10.0,False
+C3,2,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1369,10,10,10,10,10.0,10,10,9,9,10,9.6,False
+C3,2,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1372,9,6,9,8,8.0,9,9,8,9,9,8.8,False
+C3,2,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,591,10,9,10,10,9.75,10,10,9,10,10,9.8,False
+C3,2,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,603,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+C3,2,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",777,10,9,10,10,9.75,9,9,8,9,10,9.0,False
+C3,2,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2143,9,3,9,10,7.75,10,10,10,10,10,10.0,False
+C3,2,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,992,10,8,10,10,9.5,10,10,10,9,10,9.8,False
+C3,2,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2655,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+C3,2,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,820,9,6,9,9,8.25,9,9,8,8,10,8.8,False
+C3,2,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,2849,9,9,10,10,9.5,10,10,9,10,10,9.8,False
+C3,2,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,557,9,2,9,8,7.0,8,7,8,6,7,7.2,False
+C3,2,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2865,10,7,10,10,9.25,9,10,9,9,10,9.4,False
+C3,2,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1181,3,2,9,9,5.75,8,4,9,7,6,6.8,False
+C3,3,1,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",1988,9,8,9,9,8.75,9,10,9,9,9,9.2,False
+C3,3,2,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,1792,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+C3,3,3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,1269,10,10,10,10,10.0,10,10,9,9,9,9.4,False
+C3,3,4,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia??,1474,9,7,9,9,8.5,9,8,9,8,9,8.6,False
+C3,3,5,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,720,10,9,10,10,9.75,9,9,9,9,10,9.2,False
+C3,3,6,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,805,10,9,10,10,9.75,10,10,9,9,10,9.6,False
+C3,3,7,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",912,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+C3,3,8,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",2183,9,4,9,8,7.5,10,10,9,10,10,9.8,False
+C3,3,9,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,896,10,8,10,9,9.25,10,10,9,9,10,9.6,False
+C3,3,10,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,2588,10,9,10,10,9.75,9,10,9,9,9,9.2,False
+C3,3,11,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,918,9,7,9,9,8.5,9,9,8,9,10,9.0,False
+C3,3,12,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,3155,9,8,10,10,9.25,10,10,10,10,10,10.0,False
+C3,3,13,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,699,9,3,9,8,7.25,8,7,8,7,9,7.8,False
+C3,3,14,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo? ,2719,10,9,10,10,9.75,9,10,9,9,10,9.4,False
+C3,3,15,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",1412,7,5,9,10,7.75,10,7,10,8,7,8.4,False
