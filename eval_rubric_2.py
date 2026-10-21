@@ -1,27 +1,21 @@
-import argparse
-import glob
-import hashlib
 import json
-import os
-import re
 import time
 
-from dotenv import load_dotenv
 from openai import OpenAI
 
 MODEL = "gpt-4.1-mini"
 TEMPERATURE = 0
-MAX_REINTENTOS = 3
-CLAVE_RESULTADO = "LLMJudge_R2"
-PATRON_FICHEROS = "resultados_ragas_*_run*.json"
+MAX_RETRIES = 3
+RESULT_KEY = "LLMJudge_R2"
 
-DIMS = [
-    "exactitud_historica",
-    "cumplimiento_tarea",
-    "precision_epistemica",
-    "razonamiento_sintesis",
-    "relevancia_foco",
-]
+# Keys of the JSON returned by the judge (defined in the Spanish prompt) -> English output names
+DIMENSIONS = {
+    "exactitud_historica": "historical_accuracy",
+    "cumplimiento_tarea": "task_fulfilment",
+    "precision_epistemica": "epistemic_precision",
+    "razonamiento_sintesis": "reasoning_synthesis",
+    "relevancia_foco": "relevance_focus",
+}
 
 
 SYSTEM_PROMPT = """Vas a evaluar respuestas a preguntas de historia de nivel universitario sobre la Hispania visigoda y la historiografía que se ha ocupado de ella.
@@ -85,35 +79,29 @@ RESPUESTA DE REFERENCIA:
 RESPUESTA A EVALUAR:
 {candidate_answer}"""
 
-RUBRICA_SHA256 = hashlib.sha256(
-    (SYSTEM_PROMPT + "\n\n" + USER_TEMPLATE).encode("utf-8")
-).hexdigest()
 
-
-def _validar(raw: dict) -> dict:
-    """Comprueba la estructura y que cada puntuación sea un entero 0-10."""
-    evaluaciones = {}
-    for dim in DIMS:
-        bloque = raw.get(dim)
-        if not isinstance(bloque, dict) or "puntuacion" not in bloque:
-            raise ValueError(f"falta la dimensión {dim}")
-        score = bloque["puntuacion"]
+def parse_scores(raw: dict) -> dict:
+    """Check that every dimension is present with an integer score in 0-10."""
+    evaluations = {}
+    for dim_key, dim_name in DIMENSIONS.items():
+        block = raw.get(dim_key)
+        if not isinstance(block, dict) or "puntuacion" not in block:
+            raise ValueError(f"missing dimension: {dim_key}")
+        score = block["puntuacion"]
         if isinstance(score, float) and score.is_integer():
             score = int(score)
         if not isinstance(score, int) or not 0 <= score <= 10:
-            raise ValueError(f"puntuación inválida en {dim}: {score!r}")
-        evaluaciones[dim] = {
-            "puntuacion": score,
-            "justificacion": bloque.get("justificacion", ""),
+            raise ValueError(f"invalid score for {dim_key}: {score!r}")
+        evaluations[dim_name] = {
+            "score": score,
+            "justification": block.get("justificacion", ""),
         }
-    return evaluaciones
+    return evaluations
 
 
-def evaluar_rubrica2(client: OpenAI, pregunta: str, respuesta: str,
-                     ground_truth: str) -> dict:
-    """Una pasada con la rúbrica 2. Devuelve el bloque a guardar en LLMJudge_R2."""
-    ultimo_error = None
-    for intento in range(1, MAX_REINTENTOS + 1):
+def judge(client: OpenAI, question: str, answer: str, ground_truth: str) -> dict:
+    last_error = None
+    for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = client.chat.completions.create(
                 model=MODEL,
@@ -122,121 +110,39 @@ def evaluar_rubrica2(client: OpenAI, pregunta: str, respuesta: str,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": USER_TEMPLATE.format(
-                        question=pregunta,
+                        question=question,
                         reference_answer=ground_truth,
-                        candidate_answer=respuesta,
+                        candidate_answer=answer,
                     )},
                 ],
             )
-            raw = json.loads(response.choices[0].message.content.strip())
-            evaluaciones = _validar(raw)
-            scores = [evaluaciones[d]["puntuacion"] for d in DIMS]
+            raw = json.loads(response.choices[0].message.content)
+            evaluations = parse_scores(raw)
+            scores = [e["score"] for e in evaluations.values()]
             return {
-                "puntuacion_media": round(sum(scores) / len(scores), 2),
-                "error_grave": bool(raw.get("error_grave", False)),
-                "valoracion_general": raw.get("valoracion_general", ""),
-                "evaluaciones": evaluaciones,
-                "modelo": MODEL,
-                "temperature": TEMPERATURE,
-                "rubrica_sha256": RUBRICA_SHA256,
-                "intentos": intento,
+                "mean_score": round(sum(scores) / len(scores), 2),
+                "serious_error": bool(raw.get("error_grave", False)),
+                "overall_assessment": raw.get("valoracion_general", ""),
+                "evaluations": evaluations,
             }
-        except Exception as e:  # noqa: BLE001 — se reintenta y se registra
-            ultimo_error = e
-            print(f"    ⚠️  intento {intento}/{MAX_REINTENTOS}: {e}")
-            time.sleep(2 * intento)
-    return {"puntuacion_media": None, "error": str(ultimo_error),
-            "rubrica_sha256": RUBRICA_SHA256}
+        except Exception as e:
+            last_error = e
+            print(f"    attempt {attempt}/{MAX_RETRIES} failed: {e}")
+            time.sleep(2 * attempt)
+    return {"mean_score": None, "error": str(last_error)}
 
 
-def nombre_config(ruta: str) -> str:
-    """resultados_ragas_gpt5mini_ragsimple_run2.json -> gpt5mini_ragsimple"""
-    m = re.match(r"resultados_ragas_(.+)_run\d+\.json$", os.path.basename(ruta))
-    return m.group(1) if m else os.path.basename(ruta)
+def evaluate_file(client: OpenAI, path: str) -> None:
+    with open(path, encoding="utf-8") as fh:
+        items = json.load(fh)
 
-
-def procesar_fichero(client, ruta, limite, force, dry_run):
-    with open(ruta, encoding="utf-8") as fh:
-        datos = json.load(fh)
-
-    items = datos[:limite] if limite else datos
-    hechos = saltados = errores = 0
     for i, item in enumerate(items, 1):
-        previo = item.get(CLAVE_RESULTADO) or {}
-        if (not force and previo.get("puntuacion_media") is not None
-                and previo.get("rubrica_sha256") == RUBRICA_SHA256):
-            saltados += 1
-            continue
+        print(f"  {i}/{len(items)}", end=" ", flush=True)
+        result = judge(client, item["pregunta"], item["respuesta_generada"],
+                       item["ground_truth"])
+        item[RESULT_KEY] = result
+        print(result["mean_score"] if result["mean_score"] is not None else "ERROR")
+        time.sleep(0.8)  # basic rate limiting
 
-        print(f"  P{i:>2}/{len(items)} ...", end=" ", flush=True)
-        res = evaluar_rubrica2(client, item["pregunta"],
-                               item["respuesta_generada"], item["ground_truth"])
-        if res.get("puntuacion_media") is None:
-            errores += 1
-            print("ERROR")
-        else:
-            hechos += 1
-            print(f"R2={res['puntuacion_media']:.2f}  "
-                  f"(R1={item.get('LLMJudge', {}).get('puntuacion_media')})")
-
-        if dry_run:
-            print(json.dumps(res, ensure_ascii=False, indent=2)[:1500])
-            continue
-
-        item[CLAVE_RESULTADO] = res
-        tmp = ruta + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as fh:
-            json.dump(datos, fh, ensure_ascii=False, indent=2)
-        os.replace(tmp, ruta)
-        time.sleep(0.8)
-
-    print(f"  → evaluadas {hechos}, ya existentes {saltados}, errores {errores}")
-
-
-def main():
-    ap = argparse.ArgumentParser(description=__doc__,
-                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--configs", nargs="*",
-                    help="Subconjunto de configuraciones (p.ej. gpt5mini_ragsimple)")
-    ap.add_argument("--limite", type=int, default=None,
-                    help="Evaluar solo las N primeras preguntas de cada fichero")
-    ap.add_argument("--force", action="store_true",
-                    help="Re-evaluar aunque ya exista LLMJudge_R2")
-    ap.add_argument("--dry-run", action="store_true",
-                    help="Llama al juez pero no escribe en los JSON")
-    ap.add_argument("--exportar-rubrica", action="store_true",
-                    help="Escribe rubrica2_prompt.txt (para publicarla) y sale")
-    args = ap.parse_args()
-
-    if args.exportar_rubrica:
-        with open("rubrica2_prompt.txt", "w", encoding="utf-8") as fh:
-            fh.write(f"# Modelo juez: {MODEL} | temperature: {TEMPERATURE} | "
-                     f"response_format: json_object | 1 pasada\n")
-            fh.write(f"# SHA-256: {RUBRICA_SHA256}\n\n")
-            fh.write("=== PROMPT DE SISTEMA ===\n\n" + SYSTEM_PROMPT + "\n\n")
-            fh.write("=== PLANTILLA DEL MENSAJE DE USUARIO ===\n\n" + USER_TEMPLATE + "\n")
-        print(f"Rúbrica exportada a rubrica2_prompt.txt (sha256 {RUBRICA_SHA256[:12]}…)")
-        return
-
-    load_dotenv()
-    if not os.getenv("OPENAI_API_KEY"):
-        raise ValueError("OPENAI_API_KEY no encontrada en .env ni en el entorno")
-    client = OpenAI()
-
-    ficheros = sorted(glob.glob(PATRON_FICHEROS))
-    if args.configs:
-        ficheros = [f for f in ficheros if nombre_config(f) in args.configs]
-    if not ficheros:
-        raise SystemExit("No hay ficheros que evaluar.")
-
-    print(f"Rúbrica 2 | juez {MODEL} | temperature {TEMPERATURE} | "
-          f"sha256 {RUBRICA_SHA256[:12]}…")
-    print(f"{len(ficheros)} ficheros\n")
-    for ruta in ficheros:
-        print(f"[{nombre_config(ruta)}] {ruta}")
-        procesar_fichero(client, ruta, args.limite, args.force, args.dry_run)
-        print()
-
-
-if __name__ == "__main__":
-    main()
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(items, fh, ensure_ascii=False, indent=2)
