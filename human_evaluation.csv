@@ -1,0 +1,31 @@
+ID,Question,Quality and depth (0-10),Hallucinations and errors (0-10),Citation (0-10),Total
+R1-B3,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",6,10,9,7.5
+R1-S3,"¿Qué relata Gregorio de Tours en su Decem Libri (Historiarum), también conocido como Historia Francorum, sobre su debate con el legado visigodo Oppila? Según Dell'Elicine ¿Qué elementos pone de relieve esta anécdota?",8,9,9,8.4
+R2-B3,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,8,9,10,8.5
+R2-S3,¿Qué características comunes tienen las revueltas arrianas contra Recaredo?,8,7,8,7.7
+R3-B3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,7,10,9,8.1
+R3-S3,¿A qué se refiere José Orlandis Rovira cuando habla de la “pre-conversión”?,8,9,9,8.4
+R4-B3,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia?,4,5,9,4.8
+R4-S3,¿Qué efecto tuvo la conversión al catolicismo del reino visigodo en la Gallaecia?,9,8,9,8.7
+R5-B3,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,4,4,9,4.5
+R5-S3,¿Con qué nombre firmó Recaredo las actas del III Concilio de Toledo y por qué motivo lo hizo de ese modo (dinastía)? ,9,10,9,9.3
+R6-B3,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,6,10,10,7.6
+R6-S3,¿Cómo interpreta Ramos-Lissón el verbo “instaurare” empleado por Recaredo en su discurso publicado en las actas del III Concilio de Toledo?,7,10,10,8.2
+R7-B3,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",5,10,10,7
+R7-S3,"Según la hipótesis de Orlandis Rovira, ¿Cómo afectó la conversión al catolicismo a las estadísticas de muerte por asesinato de los reyes visigodos?",8,10,10,8.8
+R8-B3,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",7,10,9,8.1
+R8-S3,"Según Mellado Rodríguez, ¿Cómo muestra el obispo Leandro su rechazo al papel de Recaredo como protagonista de la conversión al catolicismo de los visigodos y los suevos?",7,10,8,8
+R9-B3,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,9,9,9,9
+R9-S3,¿Cuándo se realizó la conversión personal de Recaredo y en qué momento se hizo pública?,9,10,9,9.3
+R10-B3,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,7,6,9,6.9
+R10-S3,¿Qué opinan los historiadores sobre la vinculación entre la fe arriana con la supuesta existencia de una etnia visigoda?,7,7,9,7.2
+R11-B3,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,7,10,10,8.2
+R11-S3,¿Qué posturas historiográficas sistematizan Godoy Fernández y Vilella Masana sobre la cuestión de las persecuciones de Leovigildo contra los católicos?,6,8,9,6.9
+R12-B3,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,4,4,10,4.6
+R12-S3,¿Qué supuso para los grupos religiosos minoritarios la conversión del Reino Visigodo de Toledo al catolicismo?,7,7,9,7.2
+R13-B3,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,4,10,10,6.4
+R13-S3,¿Qué texto del III Concilio de Toledo se podría considerar como una interpolación posterior a la redacción original?,5,10,9,6.9
+R14-B3,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo?,7,9,9,7.8
+R14-S3,¿Qué medidas tomó la nobleza visigoda laica y eclesiástica para proteger sus intereses tras la conversión al catolicismo del reino visigodo de Toledo?,9,7,9,8.4
+R15-B3,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",4,5,10,4.9
+R15-S3,"Según Isidro Gomá, ¿qué momentos del catolicismo propiciaron el crecimiento y la expansión de la historia política de España?",9,10,9,9.3
