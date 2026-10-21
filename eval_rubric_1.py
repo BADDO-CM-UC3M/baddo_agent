@@ -5,7 +5,6 @@ import time
 from openai import OpenAI
 
 MODEL =  "gpt-4.1-mini"  # judge model 
-N_PASSES = 3      # independent judge runs per answer, aggregated by median
 
 # Keys of the JSON returned by the judge (defined in the Spanish prompt) -> English output names
 DIMENSIONS = {
