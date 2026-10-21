@@ -1,18 +1,36 @@
+import json
+import statistics
+import time
+
+from openai import OpenAI
+
+MODEL =  "gpt-4.1-mini"  # judge model 
+N_PASSES = 3      # independent judge runs per answer, aggregated by median
+
+# Keys of the JSON returned by the judge (defined in the Spanish prompt) -> English output names
+DIMENSIONS = {
+    "relevancia": "relevance",
+    "completitud": "completeness",
+    "coherencia": "coherence",
+    "veracidad_factual": "factual_accuracy",
+}
+
+
 SYSTEM_PROMPT = """Eres un evaluador experto en historia medieval hispana.
 Tu tarea es evaluar respuestas de un sistema de IA a preguntas sobre historia visigoda.
 Sé riguroso, justo y basa TODAS las puntuaciones exclusivamente en la evidencia textual proporcionada.
 Responde SIEMPRE con JSON válido. Ningún texto fuera del JSON."""
 
 
-def build_prompt(pregunta: str, respuesta_ia: str, ground_truth: str) -> str:
+def build_prompt(question: str, ai_answer: str, ground_truth: str) -> str:
     return f"""Evalúa la siguiente respuesta en CUATRO dimensiones. Devuelve un único objeto JSON.
 
 ════════════════════════════════════════
 PREGUNTA:
-{pregunta}
+{question}
 
 RESPUESTA DE LA IA (a evaluar):
-{respuesta_ia}
+{ai_answer}
 
 RESPUESTA DE REFERENCIA (ground truth):
 {ground_truth}
@@ -102,91 +120,100 @@ Devuelve EXACTAMENTE este JSON (sin texto fuera de él):
 }}"""
 
 
-def una_pasada(client: OpenAI, qa: dict) -> dict | None:
+def judge_once(client: OpenAI, qa: dict) -> dict | None:
     try:
         response = client.chat.completions.create(
             model=MODEL,
-            temperature=0,         
+            temperature=0,
             response_format={"type": "json_object"},
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user",   "content": build_prompt(
+                {"role": "user", "content": build_prompt(
                     qa["pregunta"], qa["respuesta_ia"], qa["ground_truth"]
                 )},
             ],
         )
-        raw = response.choices[0].message.content.strip()
-        return json.loads(raw)
+        return json.loads(response.choices[0].message.content.strip())
     except Exception as e:
-        print(f"    ⚠️  Error en pasada: {e}")
+        print(f"    Error in judge pass: {e}")
         return None
 
 
-def mediana_entera(valores: list[int]) -> float:
-    return statistics.median(valores)
+def valid_score(value) -> int | None:
+    """Return the score as an int if it is within 1-10, else None."""
+    try:
+        score = int(value)
+    except (TypeError, ValueError):
+        return None
+    return score if 1 <= score <= 10 else None
 
 
-def agregar_pasadas(pasadas: list[dict]) -> dict:
+def aggregate_passes(passes: list[dict]) -> dict:
+    result = {}
 
-    dims = ["relevancia", "completitud", "coherencia", "veracidad_factual"]
-    resultado = {}
+    for dim_key, dim_name in DIMENSIONS.items():
+        scored = []
+        for p in passes:
+            block = p.get(dim_key)
+            if isinstance(block, dict):
+                score = valid_score(block.get("puntuacion"))
+                if score is not None:
+                    scored.append((score, block))
 
-    for dim in dims:
-        puntuaciones = [p[dim]["puntuacion"] for p in pasadas if p and dim in p]
-        if not puntuaciones:
-            resultado[dim] = {"puntuacion": None, "justificacion": "Sin datos"}
+        if not scored:
+            result[dim_name] = {"score": None, "justification": "No valid data"}
             continue
 
-        med = mediana_entera(puntuaciones)
-        # pasada representativa: la más cercana a la mediana
-        rep = min(pasadas, key=lambda p: abs(p[dim]["puntuacion"] - med) if p else float("inf"))
+        scores = [s for s, _ in scored]
+        median = statistics.median(scores)
+        # Representative pass: the one whose score is closest to the median
+        _, rep = min(scored, key=lambda item: abs(item[0] - median))
 
-        entrada = {
-            "puntuacion": med,
-            "puntuaciones_pasadas": puntuaciones,
-            "evidencia":      rep[dim].get("evidencia", ""),
-            "justificacion":  rep[dim].get("justificacion", ""),
+        entry = {
+            "score": median,
+            "pass_scores": scores,
+            "evidence": rep.get("evidencia", ""),
+            "justification": rep.get("justificacion", ""),
         }
-        if dim == "completitud":
-            entrada["puntos_cubiertos"] = rep[dim].get("puntos_cubiertos", [])
-            entrada["puntos_omitidos"]  = rep[dim].get("puntos_omitidos", [])
-        if dim == "veracidad_factual":
-            entrada["contradicciones"] = rep[dim].get("contradicciones", [])
+        if dim_key == "completitud":
+            entry["covered_points"] = rep.get("puntos_cubiertos", [])
+            entry["omitted_points"] = rep.get("puntos_omitidos", [])
+        if dim_key == "veracidad_factual":
+            entry["contradictions"] = rep.get("contradicciones", [])
 
-        resultado[dim] = entrada
+        result[dim_name] = entry
 
-    return resultado
+    return result
 
 
-def evaluar_respuesta(client: OpenAI, qa: dict) -> dict:
-    pid = qa["id"]
-    print(f"  Pregunta {pid} — ejecutando {N_PASADAS} pasadas...")
+def evaluate_answer(client: OpenAI, qa: dict) -> dict:
+    qid = qa["id"]
+    print(f"  Question {qid}: running {N_PASSES} passes...")
 
-    pasadas = []
-    for i in range(N_PASADAS):
-        print(f"    pasada {i+1}/{N_PASADAS}...", end=" ", flush=True)
-        res = una_pasada(client, qa)
-        if res:
-            pasadas.append(res)
+    passes = []
+    for i in range(N_PASSES):
+        print(f"    pass {i + 1}/{N_PASSES}...", end=" ", flush=True)
+        res = judge_once(client, qa)
+        if isinstance(res, dict):
+            passes.append(res)
             print("ok")
         else:
-            print("error (se omite)")
-        time.sleep(0.8)
+            print("failed (skipped)")
+        time.sleep(0.8)  # basic rate limiting
 
-    if not pasadas:
-        return {"id": pid, "pregunta": qa["pregunta"],
-                "evaluaciones": {}, "puntuacion_media": None}
+    if not passes:
+        return {"id": qid, "question": qa["pregunta"], "evaluations": {},
+                "mean_score": None, "n_valid_passes": 0}
 
-    evaluaciones = agregar_pasadas(pasadas)
+    evaluations = aggregate_passes(passes)
 
-    puntuaciones = [evaluaciones[d]["puntuacion"] for d in evaluaciones
-                    if evaluaciones[d].get("puntuacion") is not None]
-    media = round(sum(puntuaciones) / len(puntuaciones), 2) if puntuaciones else None
+    scores = [e["score"] for e in evaluations.values() if e.get("score") is not None]
+    mean_score = round(sum(scores) / len(scores), 2) if scores else None
 
     return {
-        "id": pid,
-        "pregunta": qa["pregunta"],
-        "evaluaciones": evaluaciones,
-        "puntuacion_media": media,
-        "n_pasadas_validas": len(pasadas),
+        "id": qid,
+        "question": qa["pregunta"],
+        "evaluations": evaluations,
+        "mean_score": mean_score,
+        "n_valid_passes": len(passes),
     }
